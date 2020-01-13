@@ -1,0 +1,37 @@
+.bio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  font-family: Open Sans;
+  font-weight: light;
+}
+
+.bio h3 {
+  font-weight: bold;
+}
+
+.company-logo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* margin-bottom: 1rem; */
+  /* max-height: 200px; */
+}
+
+.company-logo img {
+  max-height: 250px;
+}
+
+@media (max-width: 768px) {
+  .bio {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .company-logo img {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+}

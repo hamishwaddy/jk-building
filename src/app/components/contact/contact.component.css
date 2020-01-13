@@ -1,0 +1,52 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #c15936;
+  color: white;
+  margin-top: 12rem;
+  padding-bottom: 8rem;
+}
+
+.contact-right {
+  padding-top: 0;
+  font-family: Open Sans;
+}
+
+.contact-right a {
+  color: white;
+}
+
+.contact-right h1 {
+  font-weight: bold;
+}
+
+.company-logo-gold {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.company-logo-gold img {
+  max-width: 320px;
+  height: auto;
+}
+
+.contact-item {
+  line-height: 3.5rem;
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 2rem;
+    margin-top: 6rem;
+  }
+  .company-logo-gold {
+    display: none;
+  }
+  .contact-right {
+    text-align: center;
+  }
+}

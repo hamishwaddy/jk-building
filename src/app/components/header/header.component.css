@@ -1,0 +1,71 @@
+nav {
+  background-color:white;
+  color: black;
+  font-family: NYC;
+  font-size: 2rem;
+}
+
+.nav-item a {
+  color: black;
+}
+
+.nav-item a:hover {
+  color: black;
+  opacity: .75;
+}
+
+.company-title {
+  font-family: MicroSquare;
+  color: #C15936;
+  font-size: 2.5rem;
+}
+
+.branding {
+  display: flex;
+}
+
+.hero-image {
+  max-width: 100%;
+  min-height: 600px;
+  background-image: url('../../../assets/images/hero.jpg');
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  margin-top: 0;
+  padding: 0;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Open Sans;
+  font-weight: bold;
+}
+
+.hero-text a {
+  text-transform: uppercase;
+  font-family: Open Sans;
+  font-weight: bold;
+  background-color: #C15936;
+  border: none;
+}
+
+.hero-image a {
+  margin-top: 2rem;
+}
+
+.hero-image a:hover {
+  color: white;
+  background-color: #C15936;
+  opacity: .85;
+}
+
+@media (max-width: 768px) {
+  .hero-image {
+    padding-bottom: 1rem;
+  }
+}

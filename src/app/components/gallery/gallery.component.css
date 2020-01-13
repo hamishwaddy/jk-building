@@ -1,0 +1,16 @@
+/* .carousel {
+  margin-top: 4rem;
+}
+
+.carousel img {
+  background-size: cover;
+  background-position: center;
+  min-height: 450px;
+  width: 100%;
+} */
+
+#gallery img {
+  display: block;
+  width: 100%;
+  background-color: chartreuse;
+}

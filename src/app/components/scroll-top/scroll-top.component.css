@@ -1,0 +1,23 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 60px;
+  right: 25px;
+  z-index: 99;
+  opacity: 0;
+  outline: none;
+  transition: all .2s ease-in-out;
+  text-align: center;
+ }
+.scroll-btn {
+  background-color: #EA8902;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+ .scroll-to-top button {
+  outline: none;
+ }
+ .show-scrollTop {
+  opacity: 1;
+  transition: all .2s ease-in-out;
+ }
